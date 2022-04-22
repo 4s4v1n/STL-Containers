@@ -12,9 +12,10 @@ Each container has an iterator in the form of an internal class of the container
  4) `iter1 != iter2`
  5) `iter1 = iter2`
  6) `*iter`
+
 The project is divided into 2 parts, namely `my_containers.h` , `my_containers_plus.h`.
 
-`my_containets.h`
+`my_containets.h`: 
  1) `queue` (my_containerAdaptor.h)
  2) `stack` (my_containerAdaptor.h)
  3) `list` (my_list.h)
@@ -25,8 +26,8 @@ The project is divided into 2 parts, namely `my_containers.h` , `my_containers_p
 `my_containers_plus.h`:
  1) `array` (my_array.h)
  2) `multiset` (my_multiset)
-For each of the container, the constructors and destructor are essentially the same:
 
+For each of the container, the constructors and destructor are essentially the same:
  1) `container()` is the base constructor.
  2) `container(std::initializer_list<value_type> const& items)` - constructor with initialization list.
  3) `container(const container& other)` - copy constructor.
